@@ -1,0 +1,11 @@
+container_ports:
+  - 3000 #search
+  - 3030 #risk-manager
+  - 3031 #user-api
+  - 5000 #watchdog-service
+  - 6100 #initial-lbs-migration
+  - 6500 #lbs offer-api
+  - 6600 #betting-api
+  - 4300 #trustly
+
+localised_haproxy_config: false
